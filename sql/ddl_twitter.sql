@@ -13,7 +13,7 @@ USE twitter;
 SET @@time_zone = 'SYSTEM';
 
 DROP TABLE IF EXISTS users,
-						tweet,
+						tweets,
 						comments,
 						retweets,
 						likes,
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS users (
 -- Table TWEET
 -- ---------------------------------------------------------------------------
 
-CREATE TABLE IF NOT EXISTS tweet (
+CREATE TABLE IF NOT EXISTS tweets (
 	tweet_id SERIAL PRIMARY KEY,
 	user_id BIGINT UNSIGNED NOT NULL,
 	content VARCHAR(280) NOT NULL,
@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS comments (
 	posted_on DATETIME DEFAULT CURRENT_TIMESTAMP,
 	edited_on DATETIME NULL ON UPDATE CURRENT_TIMESTAMP,
 	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
-	FOREIGN KEY (tweet_id) REFERENCES tweet(tweet_id) ON DELETE CASCADE
+	FOREIGN KEY (tweet_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE
 );
 
 -- ---------------------------------------------------------------------------
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS retweets (
 	comment_id BIGINT UNSIGNED,
 	retweeted_on DATETIME DEFAULT CURRENT_TIMESTAMP,
 	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
-	FOREIGN KEY (tweet_id) REFERENCES tweet(tweet_id) ON DELETE CASCADE,
+	FOREIGN KEY (tweet_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE,
 	FOREIGN KEY (comment_id) REFERENCES comments(comment_id) ON DELETE CASCADE
 );
 
@@ -87,7 +87,7 @@ CREATE TABLE IF NOT EXISTS likes (
 	comment_id BIGINT UNSIGNED,
 	liked_on DATETIME DEFAULT CURRENT_TIMESTAMP,
 	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
-	FOREIGN KEY (tweet_id) REFERENCES tweet(tweet_id) ON DELETE CASCADE,
+	FOREIGN KEY (tweet_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE,
 	FOREIGN KEY (comment_id) REFERENCES comments(comment_id) ON DELETE CASCADE
 );
 
