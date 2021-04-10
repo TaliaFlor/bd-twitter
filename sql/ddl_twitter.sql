@@ -13,11 +13,12 @@ USE twitter;
 SET @@time_zone = 'SYSTEM';
 
 DROP TABLE IF EXISTS users,
+						followers,
 						tweets,
-						comments,
+						hashtags,
+						mentions,
 						retweets,
-						likes,
-						followers;
+						likes;
 
 -- ---------------------------------------------------------------------------
 -- Table USERS
@@ -26,10 +27,24 @@ DROP TABLE IF EXISTS users,
 CREATE TABLE IF NOT EXISTS users (
 	user_id SERIAL PRIMARY KEY,
 	email VARCHAR(50) NOT NULL UNIQUE,
-	pass varchar(50) NOT NULL,
-	username varchar(50) NOT NULL UNIQUE,
+	pass VARCHAR(50) NOT NULL,
+	username VARCHAR(50) NOT NULL UNIQUE,
 	display_name TINYBLOB NOT NULL,
+	location VARCHAR(150),
+	description TINYBLOB,
+	verified BOOLEAN DEFAULT FALSE,
 	joined_on DATE DEFAULT (CURRENT_DATE)
+);
+
+-- ---------------------------------------------------------------------------
+-- Table FOLLOWERS
+-- ---------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS followers (	
+	user_id BIGINT UNSIGNED NOT NULL,
+	follower_id BIGINT UNSIGNED NOT NULL,
+	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
+	FOREIGN KEY (follower_id) REFERENCES users(user_id) ON DELETE CASCADE
 );
 
 -- ---------------------------------------------------------------------------
@@ -39,24 +54,37 @@ CREATE TABLE IF NOT EXISTS users (
 CREATE TABLE IF NOT EXISTS tweets (
 	tweet_id SERIAL PRIMARY KEY,
 	user_id BIGINT UNSIGNED NOT NULL,
-	content BLOB NOT NULL,
-	posted_on DATETIME DEFAULT CURRENT_TIMESTAMP,
-	edited_on DATETIME NULL ON UPDATE CURRENT_TIMESTAMP,
-	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
-);
-
--- ---------------------------------------------------------------------------
--- Table COMMENTS
--- ---------------------------------------------------------------------------
-
-CREATE TABLE IF NOT EXISTS comments (
-	comment_id SERIAL PRIMARY KEY,
-	user_id BIGINT UNSIGNED NOT NULL,
-	tweet_id BIGINT UNSIGNED NOT NULL,
+	reply_id BIGINT UNSIGNED,
+	quote_id BIGINT UNSIGNED,
+	content TINYBLOB NOT NULL,
 	posted_on DATETIME DEFAULT CURRENT_TIMESTAMP,
 	edited_on DATETIME NULL ON UPDATE CURRENT_TIMESTAMP,
 	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
+	FOREIGN KEY (reply_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE
+	FOREIGN KEY (quote_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE
+);
+
+-- ---------------------------------------------------------------------------
+-- Table HASHTAGS
+-- ---------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS hashtags (
+	hashtag_id SERIAL PRIMARY KEY,
+	tweet_id BIGINT UNSIGNED NOT NULL,
+	hashtag VARCHAR(100) NOT NULL,
 	FOREIGN KEY (tweet_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE
+);
+
+-- ---------------------------------------------------------------------------
+-- Table MENTIONS
+-- ---------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS mentions (
+	mention_id SERIAL PRIMARY KEY,
+	tweet_id BIGINT UNSIGNED NOT NULL,
+	user_id BIGINT UNSIGNED NOT NULL,
+	FOREIGN KEY (tweet_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE,
+	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
 );
 
 -- ---------------------------------------------------------------------------
@@ -65,14 +93,11 @@ CREATE TABLE IF NOT EXISTS comments (
 
 CREATE TABLE IF NOT EXISTS retweets (
 	retweet_id SERIAL PRIMARY KEY,
+	tweet_id BIGINT UNSIGNED NOT NULL,
 	user_id BIGINT UNSIGNED NOT NULL,
-	is_comment BOOLEAN NOT NULL,
-	tweet_id BIGINT UNSIGNED,
-	comment_id BIGINT UNSIGNED,
 	retweeted_on DATETIME DEFAULT CURRENT_TIMESTAMP,
-	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
 	FOREIGN KEY (tweet_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE,
-	FOREIGN KEY (comment_id) REFERENCES comments(comment_id) ON DELETE CASCADE
+	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
 );
 
 -- ---------------------------------------------------------------------------
@@ -81,30 +106,17 @@ CREATE TABLE IF NOT EXISTS retweets (
 
 CREATE TABLE IF NOT EXISTS likes (
 	like_id SERIAL PRIMARY KEY,
+	tweet_id BIGINT UNSIGNED NOT NULL,
 	user_id BIGINT UNSIGNED NOT NULL,
-	is_comment BOOLEAN NOT NULL,
-	tweet_id BIGINT UNSIGNED,
-	comment_id BIGINT UNSIGNED,
 	liked_on DATETIME DEFAULT CURRENT_TIMESTAMP,
-	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
 	FOREIGN KEY (tweet_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE,
-	FOREIGN KEY (comment_id) REFERENCES comments(comment_id) ON DELETE CASCADE
+	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
 );
 
 -- ---------------------------------------------------------------------------
--- Table FOLLOWERS
+-- 
 -- ---------------------------------------------------------------------------
 
-CREATE TABLE IF NOT EXISTS followers (
-	user_id BIGINT UNSIGNED NOT NULL,
-	follower_id BIGINT UNSIGNED NOT NULL,
-	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
-	FOREIGN KEY (follower_id) REFERENCES users(user_id) ON DELETE CASCADE
-);
-
--- ---------------------------------------------------------------------------
--- TODO Hashtags
--- ---------------------------------------------------------------------------
 
 
 
