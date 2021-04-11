@@ -1,0 +1,12 @@
+{
+  "twitter": {
+    "token": "1378431838042132494-WJDCQS04BIHjliYRJBvHUld4s0M5gb",
+    "token_secret": "TgWfzblvAMRSrSPFEAQT6GdjFaiMTyrKyDhQCQ3Y2EPS9",
+    "consumer_key": "M2gSxY6U3AQcRUiy7nOqT6J46",
+    "consumer_secret": "TQqDRi5duYaYOblIdXwa2fHIUUXB9ouv0w9AzrDby2rEusfd9I",
+    "bearer_token": "AAAAAAAAAAAAAAAAAAAAAMINOQEAAAAA8%2BvLARrBH3I65aQe2MBVFOdIp04%3DcMLZ9J0LQ6dgTX0ePXnQ6ohX7pZUscBrqgWNRrN1BdX8aKjY48"
+  },
+  "application": {
+    "query": "#snydercut -is:truncated lang:en"
+  }
+}

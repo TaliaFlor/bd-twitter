@@ -3,6 +3,7 @@ from typing import List
 
 from faker import Faker
 
+from src.api.collection import Collection
 from src.models.follower import Follower
 from src.models.hashtag import Hashtag
 from src.models.like import Like
@@ -11,7 +12,6 @@ from src.models.retweet import Retweet
 from src.models.tweet import Tweet
 from src.models.user import User
 from src.util.file import read_file
-from src.util.list import exists
 from src.util.number import randmedium
 
 
@@ -19,40 +19,37 @@ class Parser:
     """Parsers the data received from the API into the desired objects models"""
 
     def __init__(self, data):
-        self.users = []
-        self.retweets = []
-        self.tweets = []
-        self.hashtags = []
-        self.mentions = []
-        self.followers = []
-        self.likes = []
-
         self.data = data
-
+        self.collection = Collection()
         self.fake = Faker()
 
     # ------- PUBLIC METHODS  -------
 
-    def parse(self):
-        """Extrai as informações desejadas dos dados passados pela API"""
+    def parse(self) -> Collection:
+        """
+        Extrai as informações desejadas dos dados passados pela API.
+        :return: um objeto com as coleções dos dados extraídos
+        """
         posts = self.data["statuses"]
         for post in posts:
-            self.users.append(self.__parse_user(post))
+            self.collection.insert_user(self.__parse_user(post))
 
             content = post["text"]
             if content[:4] == "RT @":
-                self.retweets.append(self.__parse_retweet(post))
+                self.collection.insert_retweet(self.__parse_retweet(post))
             else:
                 self.__parse_post(post)
 
-        self.followers.extend(self.__generate_followers())
-        self.likes.extend(self.__generate_likes())
+        self.collection.insert_followers(self.__generate_followers())
+        self.collection.insert_likes(self.__generate_likes())
+
+        return self.collection
 
     # ------- PRIVATE METHODS  -------
 
     def __parse_user(self, post) -> User:
         json = post["user"]
-        user = User(
+        return User(
             user_id=json["id"],
             email=self.fake.free_email(),
             password=self.fake.password(),
@@ -63,8 +60,6 @@ class Parser:
             verified=json["verified"],
             joined_on=json["created_at"]
         )
-        if user not in self.users:
-            return user
 
     def __parse_retweet(self, post) -> Retweet:
         retweet = Retweet(
@@ -73,31 +68,23 @@ class Parser:
             retweeted_on=post["created_at"]
         )
 
-        if retweet not in self.retweets:
+        if not self.collection.exists(retweet.tweet_id):
+            self.__parse_post(post["retweeted_status"])
 
-            if not exists(self.tweets, retweet.tweet_id):
-                self.__parse_post(post["retweeted_status"])
+        user_id = post["retweeted_status"]["user"]["id"]
+        if not self.collection.exists(user_id):
+            self.collection.insert_user(self.__parse_user(post["retweeted_status"]))
 
-            user_id = post["retweeted_status"]["user"]["id"]
-            if not exists(self.users, user_id):
-                self.users.append(self.__parse_user(post["retweeted_status"]))
-
-            return retweet
+        return retweet
 
     def __parse_post(self, post):
         """Parsers a post. Can be a tweet, a quote or a reply"""
-        tweet = self.__parse_tweet(post)
-        if tweet not in self.tweets:
-            self.tweets.append(tweet)
-            hashtags = self.__parse_hashtags(post)
-            if hashtags is not None:
-                self.hashtags.extend(hashtags)
-            mentions = self.__parse_mentions(post)
-            if mentions is not None:
-                self.mentions.extend(mentions)
+        self.collection.insert_tweet(self.__parse_tweet(post))
+        self.collection.insert_hashtags(self.__parse_hashtags(post))
+        self.collection.insert_mentions(self.__parse_mentions(post))
 
-            if post["is_quote_status"] == True and not exists(self.tweets, post["quoted_status"]["id"]):
-                self.__parse_post(post["quoted_status"])
+        if post["is_quote_status"] == True and not self.collection.exists(post["quoted_status"]["id"]):
+            self.__parse_post(post["quoted_status"])
 
     @staticmethod
     def __parse_tweet(post) -> Tweet:
@@ -116,10 +103,10 @@ class Parser:
         hashtags = []
         tweet_id = post["id"]
         json = post["entities"]["hashtags"]
-        for hashtag_json in json:
+        for item in json:
             hashtag = Hashtag(
                 tweet_id=tweet_id,
-                hashtag=hashtag_json["text"]
+                hashtag=item["text"]
             )
             hashtags.append(hashtag)
 
@@ -129,15 +116,15 @@ class Parser:
         mentions = []
         tweet_id = post["id"]
         json = post["entities"]["user_mentions"]
-        for mention_json in json:
+        for item in json:
             mention = Mention(
                 tweet_id=tweet_id,
-                user_id=mention_json["id"]
+                user_id=item["id"]
             )
             mentions.append(mention)
 
-            if not exists(self.users, mention.user_id):
-                self.users.append(self.__parse_user_from_mentions(mention_json))
+            if not self.collection.exists(mention.user_id):
+                self.collection.insert_user(self.__parse_user_from_mentions(item))
 
         return mentions
 
@@ -152,8 +139,8 @@ class Parser:
 
     def __generate_followers(self) -> List[Follower]:
         """Generates random followers to a random number of users"""
-        sample_size = randmedium(self.users)
-        users = random.sample(self.users, sample_size)
+        sample_size = randmedium(self.collection.users)
+        users = random.sample(self.collection.users, sample_size)
 
         followers = []
         for user in users:
@@ -162,14 +149,14 @@ class Parser:
 
     def __assign_followers_to_a_user(self, user: User):
         """Assign a random number of followers to a single user"""
-        followers = []
-        sample_size = randmedium(self.users)
-        users = random.sample(self.users, sample_size)
+        sample_size = randmedium(self.collection.users)
+        users = random.sample(self.collection.users, sample_size)
 
+        followers = []
         for user_follower in users:
             follower = Follower(
-                user_id=user.user_id,
-                follower_id=user_follower.user_id
+                following_id=user_follower.user_id,
+                user_id=user.user_id
             )
             followers.append(follower)
 
@@ -177,8 +164,8 @@ class Parser:
 
     def __generate_likes(self) -> List[Like]:
         """Generates random likes to a random number of tweets"""
-        sample_size = randmedium(self.tweets)
-        tweets = random.sample(self.tweets, sample_size)
+        sample_size = randmedium(self.collection.tweets)
+        tweets = random.sample(self.collection.tweets, sample_size)
 
         likes = []
         for tweet in tweets:
@@ -187,10 +174,10 @@ class Parser:
 
     def __assign_likes_to_a_tweet(self, tweet: Tweet):
         """Assign a random number of likes to a single tweet"""
-        likes = []
-        sample_size = randmedium(self.users)
-        users = random.sample(self.users, sample_size)
+        sample_size = randmedium(self.collection.users)
+        users = random.sample(self.collection.users, sample_size)
 
+        likes = []
         for user in users:
             like = Like(
                 tweet_id=tweet.tweet_id,
@@ -205,12 +192,12 @@ if __name__ == "__main__":
     data = read_file("../../resources/examples/sample_response.json")
 
     parser = Parser(data)
-    parser.parse()
+    collection = parser.parse()
 
-    # print(parser.users)
-    # print(parser.retweets)
-    # print(parser.tweets)
-    # print(parser.hashtags)
-    # print(parser.mentions)
-    # print(parser.followers)
-    # print(parser.likes)
+    # print(collection.users)
+    # print(collection.retweets)
+    # print(collection.tweets)
+    # print(collection.hashtags)
+    # print(collection.mentions)
+    # print(collection.followers)
+    # print(collection.likes)

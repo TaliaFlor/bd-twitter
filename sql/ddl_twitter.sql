@@ -40,11 +40,12 @@ CREATE TABLE IF NOT EXISTS users (
 -- Table FOLLOWERS
 -- ---------------------------------------------------------------------------
 
-CREATE TABLE IF NOT EXISTS followers (	
+CREATE TABLE IF NOT EXISTS followers (
+	follower_id SERIAL PRIMARY KEY,	
+	following_id BIGINT UNSIGNED NOT NULL,
 	user_id BIGINT UNSIGNED NOT NULL,
-	follower_id BIGINT UNSIGNED NOT NULL,
-	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
-	FOREIGN KEY (follower_id) REFERENCES users(user_id) ON DELETE CASCADE
+	FOREIGN KEY (following_id) REFERENCES users(user_id) ON DELETE CASCADE,
+	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
 );
 
 -- ---------------------------------------------------------------------------
@@ -60,7 +61,7 @@ CREATE TABLE IF NOT EXISTS tweets (
 	posted_on DATETIME DEFAULT CURRENT_TIMESTAMP,
 	edited_on DATETIME NULL ON UPDATE CURRENT_TIMESTAMP,
 	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
-	FOREIGN KEY (reply_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE
+	FOREIGN KEY (reply_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE,
 	FOREIGN KEY (quote_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE
 );
 
