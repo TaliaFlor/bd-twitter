@@ -27,7 +27,7 @@ DROP TABLE IF EXISTS users,
 CREATE TABLE IF NOT EXISTS users (
 	user_id SERIAL PRIMARY KEY,
 	email VARCHAR(50) NOT NULL UNIQUE,
-	pass VARCHAR(50) NOT NULL,
+	password VARCHAR(50) NOT NULL,
 	username VARCHAR(50) NOT NULL UNIQUE,
 	display_name TINYBLOB NOT NULL,
 	location VARCHAR(150),
@@ -55,14 +55,12 @@ CREATE TABLE IF NOT EXISTS followers (
 CREATE TABLE IF NOT EXISTS tweets (
 	tweet_id SERIAL PRIMARY KEY,
 	user_id BIGINT UNSIGNED NOT NULL,
-	reply_id BIGINT UNSIGNED,
-	quote_id BIGINT UNSIGNED,
+	conversation_id BIGINT UNSIGNED,
 	content TINYBLOB NOT NULL,
 	posted_on DATETIME DEFAULT CURRENT_TIMESTAMP,
 	edited_on DATETIME NULL ON UPDATE CURRENT_TIMESTAMP,
 	FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
-	FOREIGN KEY (reply_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE,
-	FOREIGN KEY (quote_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE
+	FOREIGN KEY (conversation_id) REFERENCES tweets(tweet_id) ON DELETE CASCADE
 );
 
 -- ---------------------------------------------------------------------------
