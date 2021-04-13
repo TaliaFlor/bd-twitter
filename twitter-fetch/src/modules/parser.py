@@ -58,7 +58,7 @@ class Parser:
     def __parse_post(self, post):
         """Parsers a post. Can be a tweet, a quote or a reply"""
         if post.is_quote_status == True and not self.collection.exists(Tweet, post.quoted_status_id):
-            self.__parse_tweet(post.quoted_status)
+            self.__parse_post(post.quoted_status)
 
         self.collection.insert_tweet(self.__parse_tweet(post))
         self.collection.insert_hashtags(self.__parse_hashtags(post))
