@@ -3,7 +3,7 @@ from typing import List
 
 from faker import Faker
 
-from src.api.collection import Collection
+from collection import Collection
 from src.models.follower import Follower
 from src.models.hashtag import Hashtag
 from src.models.like import Like
@@ -11,40 +11,17 @@ from src.models.mention import Mention
 from src.models.retweet import Retweet
 from src.models.tweet import Tweet
 from src.models.user import User
-from src.util.clazz import get_attributes
-from src.util.file import read_file, write_file
+from src.util.file import read_file
 from src.util.number import randmedium, fmt_date, fmt_datetime
 
 
 class Parser:
     """Parsers the data received from the API into the desired objects models"""
 
-    def __init__(self, data):
-        self.data = data
+    def __init__(self, posts):
+        self.posts = posts
         self.collection = Collection()
         self.fake = Faker()
-
-    # ------- PUBLIC METHODS  -------
-
-    def parse(self) -> Collection:
-        """
-        Extrai as informações desejadas dos dados passados pela API.
-        :return: um objeto com as coleções dos dados extraídos
-        """
-        posts = self.data["statuses"]
-        for post in posts:
-            self.collection.insert_user(self.__parse_user(post))
-
-            content = post["text"]
-            if content[:4] == "RT @":
-                self.collection.insert_retweet(self.__parse_retweet(post))
-            else:
-                self.__parse_post(post)
-
-        self.collection.insert_followers(self.__generate_followers())
-        self.collection.insert_likes(self.__generate_likes())
-
-        return self.collection
 
     # ------- PRIVATE METHODS  -------
 
@@ -192,6 +169,30 @@ class Parser:
             likes.append(like)
 
         return likes
+
+    # ------- PUBLIC METHODS  -------
+
+    def parse(self) -> Collection:
+        """
+        Extrai as informações desejadas dos dados passados pela API.
+        :return: um objeto com as coleções dos dados extraídos
+        """
+        print('Parse started')
+
+        for post in self.posts:
+            self.collection.insert_user(self.__parse_user(post))
+
+            content = post["text"]
+            if content[:4] == "RT @":
+                self.collection.insert_retweet(self.__parse_retweet(post))
+            else:
+                self.__parse_post(post)
+
+        self.collection.insert_followers(self.__generate_followers())
+        self.collection.insert_likes(self.__generate_likes())
+
+        print('Parse finalized')
+        return self.collection
 
 
 if __name__ == "__main__":
