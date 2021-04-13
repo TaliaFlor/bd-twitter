@@ -1,7 +1,6 @@
 import random
 from typing import List
 
-import tweepy
 from faker import Faker
 
 from src.models.follower import Follower
@@ -55,17 +54,48 @@ class Parser:
 
         return retweet
 
-    def __parse_post(self, post):
+    def __parse_post(self, post, ):
         """Parsers a post. Can be a tweet, a quote or a reply"""
-        if post.is_quote_status == True and not self.collection.exists(Tweet, post.quoted_status_id):
+        if self.__quote_not_exists(post):
             self.__parse_post(post.quoted_status)
 
         self.collection.insert_tweet(self.__parse_tweet(post))
         self.collection.insert_hashtags(self.__parse_hashtags(post))
         self.collection.insert_mentions(self.__parse_mentions(post))
 
+        if self.__retweet_not_exists(post):
+            self.__parse_post(post.retweeted_status)
+
+        return  # Usado para inserir caso otweet tenha sido um quote tweet e o original não existir ainda
+
+    def __quote_not_exists(self, post):
+        return self.__is_quote(post) and not self.collection.exists(Tweet, post.quoted_status.id)
+
+    @staticmethod
+    def __is_quote(post):
+        try:
+            if post.is_quote_status and post.quoted_status is not None:
+                return True
+            else:
+                return False
+        except AttributeError:
+            return False
+
+    def __retweet_not_exists(self, post):
+        return self.__is_retweet(post) and not self.collection.exists(Tweet, post.in_reply_to_status_id)
+
+    @staticmethod
+    def __is_retweet(post):
+        try:
+            if post.in_reply_to_status_id and post.retweeted_status is not None:
+                return True
+            else:
+                return False
+        except AttributeError:
+            return False
+
     def __parse_tweet(self, post) -> Tweet:
-        conversation_id = post.quoted_status_id if post.is_quote_status == True else post.in_reply_to_status_id
+        conversation_id = self.__get_conversation_id(post)
         tweet = Tweet(
             tweet_id=post.id,
             user_id=post.user.id,
@@ -78,6 +108,14 @@ class Parser:
             self.collection.insert_user(self.__parse_user(post))
 
         return tweet
+
+    def __get_conversation_id(self, post):
+        if self.__is_quote(post):
+            return post.quoted_status_id
+        elif self.__is_retweet(post):
+            return post.in_reply_to_status_id
+        else:
+            return None
 
     @staticmethod
     def __parse_hashtags(post) -> List[Hashtag]:
@@ -189,7 +227,6 @@ class Parser:
         self.collection.insert_likes(self.__generate_likes())
 
         return self.collection
-
 
 # if __name__ == "__main__":
 #     data = read_file("../../resources/examples/sample_response.json")

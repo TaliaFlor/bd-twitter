@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS users (
 	password VARCHAR(50) NOT NULL,
 	username VARCHAR(50) NOT NULL UNIQUE,
 	display_name TINYBLOB NOT NULL,
-	location VARCHAR(150),
+	location TINYBLOB,
 	description TINYBLOB,
 	verified BOOLEAN DEFAULT FALSE,
 	joined_on DATE DEFAULT (CURRENT_DATE)
