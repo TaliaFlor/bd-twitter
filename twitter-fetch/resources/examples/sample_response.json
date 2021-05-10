@@ -1,0 +1,4972 @@
+{
+  "statuses": [
+    {
+      "created_at": "Sat Apr 10 01:00:26 +0000 2021",
+      "id": 1380687078577557505,
+      "id_str": "1380687078577557505",
+      "text": "RT @snydercut: Daughters of Themyscira!\n\nZack Snyder's Justice League is now streaming on @HBOMax. #SnyderCut https://t.co/HiGr4YHJX8",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "snydercut",
+            "name": "Zack Snyder's Justice League",
+            "id": 1261435037288783872,
+            "id_str": "1261435037288783872",
+            "indices": [
+              3,
+              13
+            ]
+          },
+          {
+            "screen_name": "hbomax",
+            "name": "HBO Max",
+            "id": 89090040,
+            "id_str": "89090040",
+            "indices": [
+              90,
+              97
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 1380574372239319040,
+            "id_str": "1380574372239319040",
+            "indices": [
+              110,
+              133
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "url": "https://t.co/HiGr4YHJX8",
+            "display_url": "pic.twitter.com/HiGr4YHJX8",
+            "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380581501776011264,
+            "source_status_id_str": "1380581501776011264",
+            "source_user_id": 1261435037288783872,
+            "source_user_id_str": "1261435037288783872"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1380574372239319040,
+            "id_str": "1380574372239319040",
+            "indices": [
+              110,
+              133
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "url": "https://t.co/HiGr4YHJX8",
+            "display_url": "pic.twitter.com/HiGr4YHJX8",
+            "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+            "type": "animated_gif",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380581501776011264,
+            "source_status_id_str": "1380581501776011264",
+            "source_user_id": 1261435037288783872,
+            "source_user_id_str": "1261435037288783872",
+            "video_info": {
+              "aspect_ratio": [
+                1,
+                1
+              ],
+              "variants": [
+                {
+                  "bitrate": 0,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/tweet_video/EyjJE7NVIAAPasR.mp4"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1088217953169010688,
+        "id_str": "1088217953169010688",
+        "name": "Felipe",
+        "screen_name": "fextk",
+        "location": "",
+        "description": "Quer saber sobre? Chama na dm",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 578,
+        "friends_count": 533,
+        "listed_count": 1,
+        "created_at": "Wed Jan 23 23:32:32 +0000 2019",
+        "favourites_count": 2397,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 12484,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1379459222002339845/UlHc5DgA_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1379459222002339845/UlHc5DgA_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1088217953169010688/1598731399",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "False",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 09 18:00:54 +0000 2021",
+        "id": 1380581501776011264,
+        "id_str": "1380581501776011264",
+        "text": "Daughters of Themyscira!\n\nZack Snyder's Justice League is now streaming on @HBOMax. #SnyderCut https://t.co/HiGr4YHJX8",
+        "truncated": "False",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "SnyderCut",
+              "indices": [
+                84,
+                94
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "hbomax",
+              "name": "HBO Max",
+              "id": 89090040,
+              "id_str": "89090040",
+              "indices": [
+                75,
+                82
+              ]
+            }
+          ],
+          "urls": [],
+          "media": [
+            {
+              "id": 1380574372239319040,
+              "id_str": "1380574372239319040",
+              "indices": [
+                95,
+                118
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "url": "https://t.co/HiGr4YHJX8",
+              "display_url": "pic.twitter.com/HiGr4YHJX8",
+              "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1380574372239319040,
+              "id_str": "1380574372239319040",
+              "indices": [
+                95,
+                118
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "url": "https://t.co/HiGr4YHJX8",
+              "display_url": "pic.twitter.com/HiGr4YHJX8",
+              "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+              "type": "animated_gif",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                }
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  1,
+                  1
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/EyjJE7NVIAAPasR.mp4"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1261435037288783872,
+          "id_str": "1261435037288783872",
+          "name": "Zack Snyder's Justice League",
+          "screen_name": "snydercut",
+          "location": "Justice League Watchtower",
+          "description": "Now Streaming on @HBOMax #SnyderCut",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 275930,
+          "friends_count": 35,
+          "listed_count": 363,
+          "created_at": "Fri May 15 23:16:02 +0000 2020",
+          "favourites_count": 799,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "True",
+          "statuses_count": 443,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1261435037288783872/1616084048",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "True",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 1170,
+        "favorite_count": 6788,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 1170,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "possibly_sensitive": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 01:00:00 +0000 2021",
+      "id": 1380686972453330945,
+      "id_str": "1380686972453330945",
+      "text": "RT @snydercut: Daughters of Themyscira!\n\nZack Snyder's Justice League is now streaming on @HBOMax. #SnyderCut https://t.co/HiGr4YHJX8",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "snydercut",
+            "name": "Zack Snyder's Justice League",
+            "id": 1261435037288783872,
+            "id_str": "1261435037288783872",
+            "indices": [
+              3,
+              13
+            ]
+          },
+          {
+            "screen_name": "hbomax",
+            "name": "HBO Max",
+            "id": 89090040,
+            "id_str": "89090040",
+            "indices": [
+              90,
+              97
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 1380574372239319040,
+            "id_str": "1380574372239319040",
+            "indices": [
+              110,
+              133
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "url": "https://t.co/HiGr4YHJX8",
+            "display_url": "pic.twitter.com/HiGr4YHJX8",
+            "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380581501776011264,
+            "source_status_id_str": "1380581501776011264",
+            "source_user_id": 1261435037288783872,
+            "source_user_id_str": "1261435037288783872"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1380574372239319040,
+            "id_str": "1380574372239319040",
+            "indices": [
+              110,
+              133
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "url": "https://t.co/HiGr4YHJX8",
+            "display_url": "pic.twitter.com/HiGr4YHJX8",
+            "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+            "type": "animated_gif",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380581501776011264,
+            "source_status_id_str": "1380581501776011264",
+            "source_user_id": 1261435037288783872,
+            "source_user_id_str": "1261435037288783872",
+            "video_info": {
+              "aspect_ratio": [
+                1,
+                1
+              ],
+              "variants": [
+                {
+                  "bitrate": 0,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/tweet_video/EyjJE7NVIAAPasR.mp4"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1234584919210328068,
+        "id_str": "1234584919210328068",
+        "name": "Poccorn",
+        "screen_name": "Poccorn1",
+        "location": "Brasil",
+        "description": "poderia perder meu tempo pra criar uma bio criativa, mas estou ocupado procrastinando",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 168,
+        "friends_count": 200,
+        "listed_count": 0,
+        "created_at": "Mon Mar 02 21:02:52 +0000 2020",
+        "favourites_count": 15437,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 5389,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1378516820727054339/yLqW6e0O_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1378516820727054339/yLqW6e0O_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1234584919210328068/1616594675",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "False",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 09 18:00:54 +0000 2021",
+        "id": 1380581501776011264,
+        "id_str": "1380581501776011264",
+        "text": "Daughters of Themyscira!\n\nZack Snyder's Justice League is now streaming on @HBOMax. #SnyderCut https://t.co/HiGr4YHJX8",
+        "truncated": "False",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "SnyderCut",
+              "indices": [
+                84,
+                94
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "hbomax",
+              "name": "HBO Max",
+              "id": 89090040,
+              "id_str": "89090040",
+              "indices": [
+                75,
+                82
+              ]
+            }
+          ],
+          "urls": [],
+          "media": [
+            {
+              "id": 1380574372239319040,
+              "id_str": "1380574372239319040",
+              "indices": [
+                95,
+                118
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "url": "https://t.co/HiGr4YHJX8",
+              "display_url": "pic.twitter.com/HiGr4YHJX8",
+              "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1380574372239319040,
+              "id_str": "1380574372239319040",
+              "indices": [
+                95,
+                118
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "url": "https://t.co/HiGr4YHJX8",
+              "display_url": "pic.twitter.com/HiGr4YHJX8",
+              "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+              "type": "animated_gif",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                }
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  1,
+                  1
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/EyjJE7NVIAAPasR.mp4"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1261435037288783872,
+          "id_str": "1261435037288783872",
+          "name": "Zack Snyder's Justice League",
+          "screen_name": "snydercut",
+          "location": "Justice League Watchtower",
+          "description": "Now Streaming on @HBOMax #SnyderCut",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 275930,
+          "friends_count": 35,
+          "listed_count": 363,
+          "created_at": "Fri May 15 23:16:02 +0000 2020",
+          "favourites_count": 799,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "True",
+          "statuses_count": 443,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1261435037288783872/1616084048",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "True",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 1170,
+        "favorite_count": 6788,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 1170,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "possibly_sensitive": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:59:27 +0000 2021",
+      "id": 1380686832363470856,
+      "id_str": "1380686832363470856",
+      "text": "RT @The_Snyder_Cut: Warner Bros. abandoned Zack Snyder's Justice League plan in 2017 out of fear it wouldn't be well received.\n\nIt's now 20…",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "The_Snyder_Cut",
+            "name": "SnyderCut.com | #RestoreTheSnyderverse",
+            "id": 1145922136378396672,
+            "id_str": "1145922136378396672",
+            "indices": [
+              3,
+              18
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1328394487870025728,
+        "id_str": "1328394487870025728",
+        "name": "bagoa",
+        "screen_name": "bagoa5",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 1,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Mon Nov 16 17:48:31 +0000 2020",
+        "favourites_count": 45,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 114,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sat Apr 03 17:25:42 +0000 2021",
+        "id": 1378398316292104195,
+        "id_str": "1378398316292104195",
+        "text": "Warner Bros. abandoned Zack Snyder's Justice League plan in 2017 out of fear it wouldn't be well received.\n\nIt's no… https://t.co/3GfR6yHiOG",
+        "truncated": "True",
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/3GfR6yHiOG",
+              "expanded_url": "https://twitter.com/i/web/status/1378398316292104195",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1145922136378396672,
+          "id_str": "1145922136378396672",
+          "name": "SnyderCut.com | #RestoreTheSnyderverse",
+          "screen_name": "The_Snyder_Cut",
+          "location": "",
+          "description": "Official account for https://t.co/67Veq37t0u |\nWatch #ZackSnydersJusticeLeague on @hbomax #SnyderCut",
+          "url": "https://t.co/G5p3OW8uVh",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/G5p3OW8uVh",
+                  "expanded_url": "http://snydercut.com",
+                  "display_url": "snydercut.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "https://t.co/67Veq37t0u",
+                  "expanded_url": "http://SnyderCut.com",
+                  "display_url": "SnyderCut.com",
+                  "indices": [
+                    21,
+                    44
+                  ]
+                }
+              ]
+            }
+          },
+          "protected": "False",
+          "followers_count": 4320,
+          "friends_count": 57,
+          "listed_count": 13,
+          "created_at": "Tue Jul 02 05:08:22 +0000 2019",
+          "favourites_count": 2683,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "False",
+          "statuses_count": 3267,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1350865843601620992/jun05Px6_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1350865843601620992/jun05Px6_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1145922136378396672/1598231030",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "True",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 290,
+        "favorite_count": 845,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 290,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:59:16 +0000 2021",
+      "id": 1380686786775539713,
+      "id_str": "1380686786775539713",
+      "text": "RT @snydercut: For once, he's operating on strictly on faith, not on reason. #Batman\n\nZack Snyder's Justice League is now streaming on @HBO…",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Batman",
+            "indices": [
+              77,
+              84
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "snydercut",
+            "name": "Zack Snyder's Justice League",
+            "id": 1261435037288783872,
+            "id_str": "1261435037288783872",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1328394487870025728,
+        "id_str": "1328394487870025728",
+        "name": "bagoa",
+        "screen_name": "bagoa5",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 1,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Mon Nov 16 17:48:31 +0000 2020",
+        "favourites_count": 45,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 114,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Tue Apr 06 17:59:56 +0000 2021",
+        "id": 1379494092367794178,
+        "id_str": "1379494092367794178",
+        "text": "For once, he's operating on strictly on faith, not on reason. #Batman\n\nZack Snyder's Justice League is now streamin… https://t.co/XiUaTxrz8p",
+        "truncated": "True",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Batman",
+              "indices": [
+                62,
+                69
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/XiUaTxrz8p",
+              "expanded_url": "https://twitter.com/i/web/status/1379494092367794178",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1261435037288783872,
+          "id_str": "1261435037288783872",
+          "name": "Zack Snyder's Justice League",
+          "screen_name": "snydercut",
+          "location": "Justice League Watchtower",
+          "description": "Now Streaming on @HBOMax #SnyderCut",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 275930,
+          "friends_count": 35,
+          "listed_count": 363,
+          "created_at": "Fri May 15 23:16:02 +0000 2020",
+          "favourites_count": 799,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "True",
+          "statuses_count": 443,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1261435037288783872/1616084048",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "True",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 1802,
+        "favorite_count": 11238,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 1802,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:59:08 +0000 2021",
+      "id": 1380686754806566914,
+      "id_str": "1380686754806566914",
+      "text": "RT @snydercut: Never betray #Darkseid.\n\nZack Snyder's Justice League is now streaming on @HBOMax. #SnyderCut https://t.co/9a9RIKNAii",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Darkseid",
+            "indices": [
+              28,
+              37
+            ]
+          },
+          {
+            "text": "SnyderCut",
+            "indices": [
+              98,
+              108
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "snydercut",
+            "name": "Zack Snyder's Justice League",
+            "id": 1261435037288783872,
+            "id_str": "1261435037288783872",
+            "indices": [
+              3,
+              13
+            ]
+          },
+          {
+            "screen_name": "hbomax",
+            "name": "HBO Max",
+            "id": 89090040,
+            "id_str": "89090040",
+            "indices": [
+              89,
+              96
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 1379118725534605318,
+            "id_str": "1379118725534605318",
+            "indices": [
+              109,
+              132
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyOdLIqUYAYOdd6.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyOdLIqUYAYOdd6.jpg",
+            "url": "https://t.co/9a9RIKNAii",
+            "display_url": "pic.twitter.com/9a9RIKNAii",
+            "expanded_url": "https://twitter.com/snydercut/status/1379119204054392838/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1379119204054392838,
+            "source_status_id_str": "1379119204054392838",
+            "source_user_id": 1261435037288783872,
+            "source_user_id_str": "1261435037288783872"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1379118725534605318,
+            "id_str": "1379118725534605318",
+            "indices": [
+              109,
+              132
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyOdLIqUYAYOdd6.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyOdLIqUYAYOdd6.jpg",
+            "url": "https://t.co/9a9RIKNAii",
+            "display_url": "pic.twitter.com/9a9RIKNAii",
+            "expanded_url": "https://twitter.com/snydercut/status/1379119204054392838/photo/1",
+            "type": "animated_gif",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1379119204054392838,
+            "source_status_id_str": "1379119204054392838",
+            "source_user_id": 1261435037288783872,
+            "source_user_id_str": "1261435037288783872",
+            "video_info": {
+              "aspect_ratio": [
+                1,
+                1
+              ],
+              "variants": [
+                {
+                  "bitrate": 0,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/tweet_video/EyOdLIqUYAYOdd6.mp4"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1328394487870025728,
+        "id_str": "1328394487870025728",
+        "name": "bagoa",
+        "screen_name": "bagoa5",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 1,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Mon Nov 16 17:48:31 +0000 2020",
+        "favourites_count": 45,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 114,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Mon Apr 05 17:10:15 +0000 2021",
+        "id": 1379119204054392838,
+        "id_str": "1379119204054392838",
+        "text": "Never betray #Darkseid.\n\nZack Snyder's Justice League is now streaming on @HBOMax. #SnyderCut https://t.co/9a9RIKNAii",
+        "truncated": "False",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Darkseid",
+              "indices": [
+                13,
+                22
+              ]
+            },
+            {
+              "text": "SnyderCut",
+              "indices": [
+                83,
+                93
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "hbomax",
+              "name": "HBO Max",
+              "id": 89090040,
+              "id_str": "89090040",
+              "indices": [
+                74,
+                81
+              ]
+            }
+          ],
+          "urls": [],
+          "media": [
+            {
+              "id": 1379118725534605318,
+              "id_str": "1379118725534605318",
+              "indices": [
+                94,
+                117
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyOdLIqUYAYOdd6.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyOdLIqUYAYOdd6.jpg",
+              "url": "https://t.co/9a9RIKNAii",
+              "display_url": "pic.twitter.com/9a9RIKNAii",
+              "expanded_url": "https://twitter.com/snydercut/status/1379119204054392838/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1379118725534605318,
+              "id_str": "1379118725534605318",
+              "indices": [
+                94,
+                117
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyOdLIqUYAYOdd6.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyOdLIqUYAYOdd6.jpg",
+              "url": "https://t.co/9a9RIKNAii",
+              "display_url": "pic.twitter.com/9a9RIKNAii",
+              "expanded_url": "https://twitter.com/snydercut/status/1379119204054392838/photo/1",
+              "type": "animated_gif",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                }
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  1,
+                  1
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/EyOdLIqUYAYOdd6.mp4"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1261435037288783872,
+          "id_str": "1261435037288783872",
+          "name": "Zack Snyder's Justice League",
+          "screen_name": "snydercut",
+          "location": "Justice League Watchtower",
+          "description": "Now Streaming on @HBOMax #SnyderCut",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 275930,
+          "friends_count": 35,
+          "listed_count": 363,
+          "created_at": "Fri May 15 23:16:02 +0000 2020",
+          "favourites_count": 799,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "True",
+          "statuses_count": 443,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1261435037288783872/1616084048",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "True",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 1816,
+        "favorite_count": 12087,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 1816,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "possibly_sensitive": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:59:06 +0000 2021",
+      "id": 1380686743314305028,
+      "id_str": "1380686743314305028",
+      "text": "RT @Syncopy: Knightmare #SnyderCut https://t.co/7F3TM0IZHA",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              24,
+              34
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Syncopy",
+            "name": "Syncopy Films",
+            "id": 4128946093,
+            "id_str": "4128946093",
+            "indices": [
+              3,
+              11
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 1380555979310329859,
+            "id_str": "1380555979310329859",
+            "indices": [
+              35,
+              58
+            ],
+            "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "url": "https://t.co/7F3TM0IZHA",
+            "display_url": "pic.twitter.com/7F3TM0IZHA",
+            "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 581,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380555984712527874,
+            "source_status_id_str": "1380555984712527874",
+            "source_user_id": 4128946093,
+            "source_user_id_str": "4128946093"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1380555979310329859,
+            "id_str": "1380555979310329859",
+            "indices": [
+              35,
+              58
+            ],
+            "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "url": "https://t.co/7F3TM0IZHA",
+            "display_url": "pic.twitter.com/7F3TM0IZHA",
+            "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 581,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380555984712527874,
+            "source_status_id_str": "1380555984712527874",
+            "source_user_id": 4128946093,
+            "source_user_id_str": "4128946093"
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1379337477144580098,
+        "id_str": "1379337477144580098",
+        "name": "JFM 🦇",
+        "screen_name": "jfmellx",
+        "location": "",
+        "description": "#RestoreTheSnyderVerse",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 2,
+        "friends_count": 71,
+        "listed_count": 0,
+        "created_at": "Tue Apr 06 07:37:47 +0000 2021",
+        "favourites_count": 71,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 72,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1379498282452451330/w9JznHJ3_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1379498282452451330/w9JznHJ3_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 09 16:19:30 +0000 2021",
+        "id": 1380555984712527874,
+        "id_str": "1380555984712527874",
+        "text": "Knightmare #SnyderCut https://t.co/7F3TM0IZHA",
+        "truncated": "False",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "SnyderCut",
+              "indices": [
+                11,
+                21
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 1380555979310329859,
+              "id_str": "1380555979310329859",
+              "indices": [
+                22,
+                45
+              ],
+              "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "url": "https://t.co/7F3TM0IZHA",
+              "display_url": "pic.twitter.com/7F3TM0IZHA",
+              "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 581,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1380555979310329859,
+              "id_str": "1380555979310329859",
+              "indices": [
+                22,
+                45
+              ],
+              "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "url": "https://t.co/7F3TM0IZHA",
+              "display_url": "pic.twitter.com/7F3TM0IZHA",
+              "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 581,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 4128946093,
+          "id_str": "4128946093",
+          "name": "Syncopy Films",
+          "screen_name": "Syncopy",
+          "location": "",
+          "description": "@Interstellar @TENETfilm @snydercut",
+          "url": "https://t.co/489OCJlldU",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/489OCJlldU",
+                  "expanded_url": "https://www.tenetfilm.com/?tickets",
+                  "display_url": "tenetfilm.com/?tickets",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 5737,
+          "friends_count": 25,
+          "listed_count": 25,
+          "created_at": "Wed Nov 04 23:23:27 +0000 2015",
+          "favourites_count": 337,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "False",
+          "statuses_count": 279,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/681922408006041601/8Kn1RcAX_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/681922408006041601/8Kn1RcAX_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/4128946093/1613266312",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "False",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 592,
+        "favorite_count": 4052,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 592,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "possibly_sensitive": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:59:06 +0000 2021",
+      "id": 1380686742987096064,
+      "id_str": "1380686742987096064",
+      "text": "RT @El_LadoG: El guionista de @BatmanvSuperman y #SnyderCut salió con todo a pegarle a @wbpictures en una reciente entrevista para @VanityF…",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              49,
+              59
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "El_LadoG",
+            "name": "EL LADO G",
+            "id": 2905969396,
+            "id_str": "2905969396",
+            "indices": [
+              3,
+              12
+            ]
+          },
+          {
+            "screen_name": "BatmanvSuperman",
+            "name": "Batman v Superman",
+            "id": 583288452,
+            "id_str": "583288452",
+            "indices": [
+              30,
+              46
+            ]
+          },
+          {
+            "screen_name": "wbpictures",
+            "name": "Warner Bros. Pictures",
+            "id": 20255162,
+            "id_str": "20255162",
+            "indices": [
+              87,
+              98
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 540251788,
+        "id_str": "540251788",
+        "name": "BOCA CONTRA TODOS ⑫",
+        "screen_name": "passuccijuan",
+        "location": "República Popular de La BOCA",
+        "description": "Bostero antes de la Creación. Marido de @cinchia77. Casi nunca me aburro. Prevenido. Sentimental y utópico. Amo 🐕. Superhéroes⚡DC Comics. No aplaudo en El Vals",
+        "url": "https://t.co/lSyEAYoxDK",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/lSyEAYoxDK",
+                "expanded_url": "https://www.facebook.com/un.dulce.perfecto/?ref=ts&fref=ts",
+                "display_url": "facebook.com/un.dulce.perfe…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 2262,
+        "friends_count": 3367,
+        "listed_count": 12,
+        "created_at": "Thu Mar 29 20:21:47 +0000 2012",
+        "favourites_count": 140420,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "True",
+        "verified": "False",
+        "statuses_count": 96002,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": "True",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1377435842675941389/loLKa8VB_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1377435842675941389/loLKa8VB_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/540251788/1617501824",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "False",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 09 01:32:48 +0000 2021",
+        "id": 1380332838340472836,
+        "id_str": "1380332838340472836",
+        "text": "El guionista de @BatmanvSuperman y #SnyderCut salió con todo a pegarle a @wbpictures en una reciente entrevista par… https://t.co/BJtlNgwEu4",
+        "truncated": "True",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "SnyderCut",
+              "indices": [
+                35,
+                45
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "BatmanvSuperman",
+              "name": "Batman v Superman",
+              "id": 583288452,
+              "id_str": "583288452",
+              "indices": [
+                16,
+                32
+              ]
+            },
+            {
+              "screen_name": "wbpictures",
+              "name": "Warner Bros. Pictures",
+              "id": 20255162,
+              "id_str": "20255162",
+              "indices": [
+                73,
+                84
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/BJtlNgwEu4",
+              "expanded_url": "https://twitter.com/i/web/status/1380332838340472836",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "es",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 2905969396,
+          "id_str": "2905969396",
+          "name": "EL LADO G",
+          "screen_name": "El_LadoG",
+          "location": "Buenos Aires, Argentina",
+          "description": "Novedades, reseñas y #Podcast en todas las plataformas.\nHablamos de cine, música y series.",
+          "url": "https://t.co/OC6EZnBJrD",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/OC6EZnBJrD",
+                  "expanded_url": "http://elladog.com.ar",
+                  "display_url": "elladog.com.ar",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 5639,
+          "friends_count": 571,
+          "listed_count": 59,
+          "created_at": "Fri Dec 05 03:30:35 +0000 2014",
+          "favourites_count": 2532,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "False",
+          "statuses_count": 15253,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1343965659735142405/1iDI2ih2_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1343965659735142405/1iDI2ih2_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2905969396/1617512001",
+          "profile_link_color": "1EB890",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": "False",
+          "has_extended_profile": "True",
+          "default_profile": "False",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 42,
+        "favorite_count": 145,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "es"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 42,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "lang": "es"
+    },
+    {
+      "created_at": "Sat Apr 10 00:59:02 +0000 2021",
+      "id": 1380686726755049475,
+      "id_str": "1380686726755049475",
+      "text": "RT @Foxtel: Did you know? Zack Snyder's Justice League is already in the list of 250 all-time-greatest movies on IMDb #SnyderCut 🦸 \n\nWatch…",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              118,
+              128
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Foxtel",
+            "name": "Foxtel",
+            "id": 36865454,
+            "id_str": "36865454",
+            "indices": [
+              3,
+              10
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2567285682,
+        "id_str": "2567285682",
+        "name": "Chinmay Deshpande 🇮🇳",
+        "screen_name": "chinmay_05",
+        "location": "",
+        "description": "Associate Producer on Zack Snyder's Justice League\n#ReleaseTheSnyderCut\n#ForAutumn\n#ZackSnydersJusticeLeague",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 84,
+        "friends_count": 194,
+        "listed_count": 1,
+        "created_at": "Sat Jun 14 15:30:29 +0000 2014",
+        "favourites_count": 38103,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 9942,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1196054276436418560/JqC6VPGw_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1196054276436418560/JqC6VPGw_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2567285682/1608827336",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 09 23:00:01 +0000 2021",
+        "id": 1380656777486856194,
+        "id_str": "1380656777486856194",
+        "text": "Did you know? Zack Snyder's Justice League is already in the list of 250 all-time-greatest movies on IMDb… https://t.co/CZIddGmHmR",
+        "truncated": "True",
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/CZIddGmHmR",
+              "expanded_url": "https://twitter.com/i/web/status/1380656777486856194",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                107,
+                130
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 36865454,
+          "id_str": "36865454",
+          "name": "Foxtel",
+          "screen_name": "Foxtel",
+          "location": "Australia",
+          "description": "We love TV as much as you do. Follow us for air-dates & news. Also on Facebook, Instagram & YouTube. Tweet @FOXTEL_help for customer service",
+          "url": "https://t.co/sdNKAOR8Nk",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/sdNKAOR8Nk",
+                  "expanded_url": "http://www.foxtel.com.au",
+                  "display_url": "foxtel.com.au",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 110855,
+          "friends_count": 5485,
+          "listed_count": 407,
+          "created_at": "Fri May 01 03:03:51 +0000 2009",
+          "favourites_count": 9473,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "True",
+          "verified": "True",
+          "statuses_count": 20369,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1319411491024433152/qSblgdam_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1319411491024433152/qSblgdam_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/36865454/1614040459",
+          "profile_link_color": "E81C4F",
+          "profile_sidebar_border_color": "BDDCAD",
+          "profile_sidebar_fill_color": "DDFFCC",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "True",
+          "default_profile": "False",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 136,
+        "favorite_count": 404,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 136,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:58:56 +0000 2021",
+      "id": 1380686701501149185,
+      "id_str": "1380686701501149185",
+      "text": "RT @ComicBook: Justice League #SnyderCut concept art reveals Zack Snyder's #GreenLantern: \n\nhttps://t.co/Qeh4HfNeBe https://t.co/CyAnd9jFiz",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              30,
+              40
+            ]
+          },
+          {
+            "text": "GreenLantern",
+            "indices": [
+              75,
+              88
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ComicBook",
+            "name": "ComicBook.com",
+            "id": 22490294,
+            "id_str": "22490294",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/Qeh4HfNeBe",
+            "expanded_url": "https://comicbook.com/movies/news/justice-league-snyder-cut-concept-art-reveals-zack-snyders-green-lantern-john-stewart/",
+            "display_url": "comicbook.com/movies/news/ju…",
+            "indices": [
+              92,
+              115
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1377850822948646913,
+            "id_str": "1377850822948646913",
+            "indices": [
+              116,
+              139
+            ],
+            "media_url": "http://pbs.twimg.com/media/Ex8cBfdVcAE_OQn.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Ex8cBfdVcAE_OQn.jpg",
+            "url": "https://t.co/CyAnd9jFiz",
+            "display_url": "pic.twitter.com/CyAnd9jFiz",
+            "expanded_url": "https://twitter.com/ComicBook/status/1377896080210153475/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1200,
+                "h": 628,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 628,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 356,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1377896080210153475,
+            "source_status_id_str": "1377896080210153475",
+            "source_user_id": 22490294,
+            "source_user_id_str": "22490294"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1377850822948646913,
+            "id_str": "1377850822948646913",
+            "indices": [
+              116,
+              139
+            ],
+            "media_url": "http://pbs.twimg.com/media/Ex8cBfdVcAE_OQn.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Ex8cBfdVcAE_OQn.jpg",
+            "url": "https://t.co/CyAnd9jFiz",
+            "display_url": "pic.twitter.com/CyAnd9jFiz",
+            "expanded_url": "https://twitter.com/ComicBook/status/1377896080210153475/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1200,
+                "h": 628,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 628,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 356,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1377896080210153475,
+            "source_status_id_str": "1377896080210153475",
+            "source_user_id": 22490294,
+            "source_user_id_str": "22490294"
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1328394487870025728,
+        "id_str": "1328394487870025728",
+        "name": "bagoa",
+        "screen_name": "bagoa5",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 1,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Mon Nov 16 17:48:31 +0000 2020",
+        "favourites_count": 45,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 114,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 02 08:10:00 +0000 2021",
+        "id": 1377896080210153475,
+        "id_str": "1377896080210153475",
+        "text": "Justice League #SnyderCut concept art reveals Zack Snyder's #GreenLantern: \n\nhttps://t.co/Qeh4HfNeBe https://t.co/CyAnd9jFiz",
+        "truncated": "False",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "SnyderCut",
+              "indices": [
+                15,
+                25
+              ]
+            },
+            {
+              "text": "GreenLantern",
+              "indices": [
+                60,
+                73
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/Qeh4HfNeBe",
+              "expanded_url": "https://comicbook.com/movies/news/justice-league-snyder-cut-concept-art-reveals-zack-snyders-green-lantern-john-stewart/",
+              "display_url": "comicbook.com/movies/news/ju…",
+              "indices": [
+                77,
+                100
+              ]
+            }
+          ],
+          "media": [
+            {
+              "id": 1377850822948646913,
+              "id_str": "1377850822948646913",
+              "indices": [
+                101,
+                124
+              ],
+              "media_url": "http://pbs.twimg.com/media/Ex8cBfdVcAE_OQn.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Ex8cBfdVcAE_OQn.jpg",
+              "url": "https://t.co/CyAnd9jFiz",
+              "display_url": "pic.twitter.com/CyAnd9jFiz",
+              "expanded_url": "https://twitter.com/ComicBook/status/1377896080210153475/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1200,
+                  "h": 628,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 628,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 356,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1377850822948646913,
+              "id_str": "1377850822948646913",
+              "indices": [
+                101,
+                124
+              ],
+              "media_url": "http://pbs.twimg.com/media/Ex8cBfdVcAE_OQn.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Ex8cBfdVcAE_OQn.jpg",
+              "url": "https://t.co/CyAnd9jFiz",
+              "display_url": "pic.twitter.com/CyAnd9jFiz",
+              "expanded_url": "https://twitter.com/ComicBook/status/1377896080210153475/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1200,
+                  "h": 628,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 628,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 356,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 22490294,
+          "id_str": "22490294",
+          "name": "ComicBook.com",
+          "screen_name": "ComicBook",
+          "location": "",
+          "description": "The OFFICIAL Twitter account for https://t.co/RmAlqTQSAj. We're your #1 resource of news on comic books, movies, and TV shows.",
+          "url": "https://t.co/d9y9Xx0xpE",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/d9y9Xx0xpE",
+                  "expanded_url": "http://www.comicbook.com/",
+                  "display_url": "comicbook.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "https://t.co/RmAlqTQSAj",
+                  "expanded_url": "http://ComicBook.com",
+                  "display_url": "ComicBook.com",
+                  "indices": [
+                    33,
+                    56
+                  ]
+                }
+              ]
+            }
+          },
+          "protected": "False",
+          "followers_count": 243037,
+          "friends_count": 1879,
+          "listed_count": 2248,
+          "created_at": "Mon Mar 02 14:50:43 +0000 2009",
+          "favourites_count": 1464,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "True",
+          "statuses_count": 333087,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "23376F",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/875767134969876481/7G8BkNSg_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/875767134969876481/7G8BkNSg_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/22490294/1443303435",
+          "profile_link_color": "23376F",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "97E3FE",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "False",
+          "has_extended_profile": "False",
+          "default_profile": "False",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 60,
+        "favorite_count": 447,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 60,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "possibly_sensitive": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:58:56 +0000 2021",
+      "id": 1380686701421559811,
+      "id_str": "1380686701421559811",
+      "text": "RT @Syncopy: Knightmare #SnyderCut https://t.co/7F3TM0IZHA",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              24,
+              34
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Syncopy",
+            "name": "Syncopy Films",
+            "id": 4128946093,
+            "id_str": "4128946093",
+            "indices": [
+              3,
+              11
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 1380555979310329859,
+            "id_str": "1380555979310329859",
+            "indices": [
+              35,
+              58
+            ],
+            "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "url": "https://t.co/7F3TM0IZHA",
+            "display_url": "pic.twitter.com/7F3TM0IZHA",
+            "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 581,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380555984712527874,
+            "source_status_id_str": "1380555984712527874",
+            "source_user_id": 4128946093,
+            "source_user_id_str": "4128946093"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1380555979310329859,
+            "id_str": "1380555979310329859",
+            "indices": [
+              35,
+              58
+            ],
+            "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "url": "https://t.co/7F3TM0IZHA",
+            "display_url": "pic.twitter.com/7F3TM0IZHA",
+            "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 581,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380555984712527874,
+            "source_status_id_str": "1380555984712527874",
+            "source_user_id": 4128946093,
+            "source_user_id_str": "4128946093"
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1250372292,
+        "id_str": "1250372292",
+        "name": "Kristian Nguyen",
+        "screen_name": "NewGuyEnn1",
+        "location": "",
+        "description": "Comic Books are my drugs",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 47,
+        "friends_count": 498,
+        "listed_count": 0,
+        "created_at": "Fri Mar 08 00:52:13 +0000 2013",
+        "favourites_count": 3312,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 1589,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1365006187863891970/Vv73smn5_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1365006187863891970/Vv73smn5_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1250372292/1606351668",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "False",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 09 16:19:30 +0000 2021",
+        "id": 1380555984712527874,
+        "id_str": "1380555984712527874",
+        "text": "Knightmare #SnyderCut https://t.co/7F3TM0IZHA",
+        "truncated": "False",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "SnyderCut",
+              "indices": [
+                11,
+                21
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 1380555979310329859,
+              "id_str": "1380555979310329859",
+              "indices": [
+                22,
+                45
+              ],
+              "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "url": "https://t.co/7F3TM0IZHA",
+              "display_url": "pic.twitter.com/7F3TM0IZHA",
+              "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 581,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1380555979310329859,
+              "id_str": "1380555979310329859",
+              "indices": [
+                22,
+                45
+              ],
+              "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "url": "https://t.co/7F3TM0IZHA",
+              "display_url": "pic.twitter.com/7F3TM0IZHA",
+              "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 581,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 4128946093,
+          "id_str": "4128946093",
+          "name": "Syncopy Films",
+          "screen_name": "Syncopy",
+          "location": "",
+          "description": "@Interstellar @TENETfilm @snydercut",
+          "url": "https://t.co/489OCJlldU",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/489OCJlldU",
+                  "expanded_url": "https://www.tenetfilm.com/?tickets",
+                  "display_url": "tenetfilm.com/?tickets",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 5737,
+          "friends_count": 25,
+          "listed_count": 25,
+          "created_at": "Wed Nov 04 23:23:27 +0000 2015",
+          "favourites_count": 337,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "False",
+          "statuses_count": 279,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/681922408006041601/8Kn1RcAX_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/681922408006041601/8Kn1RcAX_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/4128946093/1613266312",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "False",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 592,
+        "favorite_count": 4052,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 592,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "possibly_sensitive": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:58:48 +0000 2021",
+      "id": 1380686668953350146,
+      "id_str": "1380686668953350146",
+      "text": "RT @snydercut: Daughters of Themyscira!\n\nZack Snyder's Justice League is now streaming on @HBOMax. #SnyderCut https://t.co/HiGr4YHJX8",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              99,
+              109
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "snydercut",
+            "name": "Zack Snyder's Justice League",
+            "id": 1261435037288783872,
+            "id_str": "1261435037288783872",
+            "indices": [
+              3,
+              13
+            ]
+          },
+          {
+            "screen_name": "hbomax",
+            "name": "HBO Max",
+            "id": 89090040,
+            "id_str": "89090040",
+            "indices": [
+              90,
+              97
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 1380574372239319040,
+            "id_str": "1380574372239319040",
+            "indices": [
+              110,
+              133
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "url": "https://t.co/HiGr4YHJX8",
+            "display_url": "pic.twitter.com/HiGr4YHJX8",
+            "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380581501776011264,
+            "source_status_id_str": "1380581501776011264",
+            "source_user_id": 1261435037288783872,
+            "source_user_id_str": "1261435037288783872"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1380574372239319040,
+            "id_str": "1380574372239319040",
+            "indices": [
+              110,
+              133
+            ],
+            "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+            "url": "https://t.co/HiGr4YHJX8",
+            "display_url": "pic.twitter.com/HiGr4YHJX8",
+            "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+            "type": "animated_gif",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 600,
+                "h": 600,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380581501776011264,
+            "source_status_id_str": "1380581501776011264",
+            "source_user_id": 1261435037288783872,
+            "source_user_id_str": "1261435037288783872",
+            "video_info": {
+              "aspect_ratio": [
+                1,
+                1
+              ],
+              "variants": [
+                {
+                  "bitrate": 0,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/tweet_video/EyjJE7NVIAAPasR.mp4"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1328394487870025728,
+        "id_str": "1328394487870025728",
+        "name": "bagoa",
+        "screen_name": "bagoa5",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 1,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Mon Nov 16 17:48:31 +0000 2020",
+        "favourites_count": 45,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 114,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 09 18:00:54 +0000 2021",
+        "id": 1380581501776011264,
+        "id_str": "1380581501776011264",
+        "text": "Daughters of Themyscira!\n\nZack Snyder's Justice League is now streaming on @HBOMax. #SnyderCut https://t.co/HiGr4YHJX8",
+        "truncated": "False",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "SnyderCut",
+              "indices": [
+                84,
+                94
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "hbomax",
+              "name": "HBO Max",
+              "id": 89090040,
+              "id_str": "89090040",
+              "indices": [
+                75,
+                82
+              ]
+            }
+          ],
+          "urls": [],
+          "media": [
+            {
+              "id": 1380574372239319040,
+              "id_str": "1380574372239319040",
+              "indices": [
+                95,
+                118
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "url": "https://t.co/HiGr4YHJX8",
+              "display_url": "pic.twitter.com/HiGr4YHJX8",
+              "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1380574372239319040,
+              "id_str": "1380574372239319040",
+              "indices": [
+                95,
+                118
+              ],
+              "media_url": "http://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/EyjJE7NVIAAPasR.jpg",
+              "url": "https://t.co/HiGr4YHJX8",
+              "display_url": "pic.twitter.com/HiGr4YHJX8",
+              "expanded_url": "https://twitter.com/snydercut/status/1380581501776011264/photo/1",
+              "type": "animated_gif",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 600,
+                  "h": 600,
+                  "resize": "fit"
+                }
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  1,
+                  1
+                ],
+                "variants": [
+                  {
+                    "bitrate": 0,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/tweet_video/EyjJE7NVIAAPasR.mp4"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1261435037288783872,
+          "id_str": "1261435037288783872",
+          "name": "Zack Snyder's Justice League",
+          "screen_name": "snydercut",
+          "location": "Justice League Watchtower",
+          "description": "Now Streaming on @HBOMax #SnyderCut",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 275930,
+          "friends_count": 35,
+          "listed_count": 363,
+          "created_at": "Fri May 15 23:16:02 +0000 2020",
+          "favourites_count": 799,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "True",
+          "statuses_count": 443,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1261435037288783872/1616084048",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "True",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 1170,
+        "favorite_count": 6788,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 1170,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "possibly_sensitive": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:58:43 +0000 2021",
+      "id": 1380686646673354752,
+      "id_str": "1380686646673354752",
+      "text": "RT @Syncopy: Knightmare #SnyderCut https://t.co/7F3TM0IZHA",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              24,
+              34
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Syncopy",
+            "name": "Syncopy Films",
+            "id": 4128946093,
+            "id_str": "4128946093",
+            "indices": [
+              3,
+              11
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 1380555979310329859,
+            "id_str": "1380555979310329859",
+            "indices": [
+              35,
+              58
+            ],
+            "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "url": "https://t.co/7F3TM0IZHA",
+            "display_url": "pic.twitter.com/7F3TM0IZHA",
+            "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 581,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380555984712527874,
+            "source_status_id_str": "1380555984712527874",
+            "source_user_id": 4128946093,
+            "source_user_id_str": "4128946093"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1380555979310329859,
+            "id_str": "1380555979310329859",
+            "indices": [
+              35,
+              58
+            ],
+            "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+            "url": "https://t.co/7F3TM0IZHA",
+            "display_url": "pic.twitter.com/7F3TM0IZHA",
+            "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 581,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 720,
+                "h": 843,
+                "resize": "fit"
+              }
+            },
+            "source_status_id": 1380555984712527874,
+            "source_status_id_str": "1380555984712527874",
+            "source_user_id": 4128946093,
+            "source_user_id_str": "4128946093"
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1085342443531354114,
+        "id_str": "1085342443531354114",
+        "name": "Miguel Owen Sullivan",
+        "screen_name": "MiguelOwen6661",
+        "location": "Santos, Brasil",
+        "description": "Use drogas",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 131,
+        "friends_count": 3219,
+        "listed_count": 0,
+        "created_at": "Wed Jan 16 01:06:18 +0000 2019",
+        "favourites_count": 161229,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "True",
+        "verified": "False",
+        "statuses_count": 16818,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1379798117214740487/d5pPOh-l_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1379798117214740487/d5pPOh-l_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1085342443531354114/1547601409",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 09 16:19:30 +0000 2021",
+        "id": 1380555984712527874,
+        "id_str": "1380555984712527874",
+        "text": "Knightmare #SnyderCut https://t.co/7F3TM0IZHA",
+        "truncated": "False",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "SnyderCut",
+              "indices": [
+                11,
+                21
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 1380555979310329859,
+              "id_str": "1380555979310329859",
+              "indices": [
+                22,
+                45
+              ],
+              "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "url": "https://t.co/7F3TM0IZHA",
+              "display_url": "pic.twitter.com/7F3TM0IZHA",
+              "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 581,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1380555979310329859,
+              "id_str": "1380555979310329859",
+              "indices": [
+                22,
+                45
+              ],
+              "media_url": "http://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Eyi4WUNVcAM0mmX.jpg",
+              "url": "https://t.co/7F3TM0IZHA",
+              "display_url": "pic.twitter.com/7F3TM0IZHA",
+              "expanded_url": "https://twitter.com/Syncopy/status/1380555984712527874/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "small": {
+                  "w": 581,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 720,
+                  "h": 843,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 4128946093,
+          "id_str": "4128946093",
+          "name": "Syncopy Films",
+          "screen_name": "Syncopy",
+          "location": "",
+          "description": "@Interstellar @TENETfilm @snydercut",
+          "url": "https://t.co/489OCJlldU",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/489OCJlldU",
+                  "expanded_url": "https://www.tenetfilm.com/?tickets",
+                  "display_url": "tenetfilm.com/?tickets",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 5737,
+          "friends_count": 25,
+          "listed_count": 25,
+          "created_at": "Wed Nov 04 23:23:27 +0000 2015",
+          "favourites_count": 337,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "False",
+          "statuses_count": 279,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/681922408006041601/8Kn1RcAX_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/681922408006041601/8Kn1RcAX_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/4128946093/1613266312",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "False",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 592,
+        "favorite_count": 4052,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 592,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "possibly_sensitive": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:58:41 +0000 2021",
+      "id": 1380686640742506500,
+      "id_str": "1380686640742506500",
+      "text": "RT @getFANDOM: ‘Justice League’ screenwriter Chris Terrio finally speaks out in the wake of the #SnyderCut\n\n'The 2017 theatrical cut was an…",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              96,
+              106
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "getFANDOM",
+            "name": "Fandom",
+            "id": 1332121,
+            "id_str": "1332121",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1328394487870025728,
+        "id_str": "1328394487870025728",
+        "name": "bagoa",
+        "screen_name": "bagoa5",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 1,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Mon Nov 16 17:48:31 +0000 2020",
+        "favourites_count": 45,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 114,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Apr 08 17:55:33 +0000 2021",
+        "id": 1380217768218296326,
+        "id_str": "1380217768218296326",
+        "text": "‘Justice League’ screenwriter Chris Terrio finally speaks out in the wake of the #SnyderCut\n\n'The 2017 theatrical c… https://t.co/MWUkzvcqcU",
+        "truncated": "True",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "SnyderCut",
+              "indices": [
+                81,
+                91
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/MWUkzvcqcU",
+              "expanded_url": "https://twitter.com/i/web/status/1380217768218296326",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1332121,
+          "id_str": "1332121",
+          "name": "Fandom",
+          "screen_name": "getFANDOM",
+          "location": "San Francisco, CA",
+          "description": "🎥 🎮 The latest news in Movies, TV, and Video Games. IG: getfandom 📷\n\n🏠: @screenjunkies, @dndbeyond, @muthead, @FandomTableTop, @CortexRPG, @futhead",
+          "url": "https://t.co/wVFp54Da1X",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/wVFp54Da1X",
+                  "expanded_url": "https://www.fandom.com",
+                  "display_url": "fandom.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 396500,
+          "friends_count": 44657,
+          "listed_count": 1697,
+          "created_at": "Sat Mar 17 03:28:55 +0000 2007",
+          "favourites_count": 11584,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "True",
+          "verified": "True",
+          "statuses_count": 50125,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "D5DADF",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1214705554544721920/LiVtsvCY_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1214705554544721920/LiVtsvCY_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1332121/1614592818",
+          "profile_link_color": "00D6D6",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "E7E7E7",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "False",
+          "default_profile": "False",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 700,
+        "favorite_count": 4450,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 700,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:58:29 +0000 2021",
+      "id": 1380686589353816065,
+      "id_str": "1380686589353816065",
+      "text": "RT @snydercut: \"I belong to no one.\"\n\nWhat's your favorite line from Zack Snyder's Justice League? #WonderWoman #SnyderCut https://t.co/uRR…",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "WonderWoman",
+            "indices": [
+              99,
+              111
+            ]
+          },
+          {
+            "text": "SnyderCut",
+            "indices": [
+              112,
+              122
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "snydercut",
+            "name": "Zack Snyder's Justice League",
+            "id": 1261435037288783872,
+            "id_str": "1261435037288783872",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1328394487870025728,
+        "id_str": "1328394487870025728",
+        "name": "bagoa",
+        "screen_name": "bagoa5",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 1,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Mon Nov 16 17:48:31 +0000 2020",
+        "favourites_count": 45,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 114,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1363311354136813568/8Vz_4JrD_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Apr 08 18:25:26 +0000 2021",
+        "id": 1380225285509931009,
+        "id_str": "1380225285509931009",
+        "text": "\"I belong to no one.\"\n\nWhat's your favorite line from Zack Snyder's Justice League? #WonderWoman #SnyderCut https://t.co/uRR0a1ZHfZ",
+        "truncated": "False",
+        "entities": {
+          "hashtags": [
+            {
+              "text": "WonderWoman",
+              "indices": [
+                84,
+                96
+              ]
+            },
+            {
+              "text": "SnyderCut",
+              "indices": [
+                97,
+                107
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 1380223741544697856,
+              "id_str": "1380223741544697856",
+              "indices": [
+                108,
+                131
+              ],
+              "media_url": "http://pbs.twimg.com/media/EyeKxZAUYAEbo-Q.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EyeKxZAUYAEbo-Q.jpg",
+              "url": "https://t.co/uRR0a1ZHfZ",
+              "display_url": "pic.twitter.com/uRR0a1ZHfZ",
+              "expanded_url": "https://twitter.com/snydercut/status/1380225285509931009/video/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 960,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 960,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 510,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1380223741544697856,
+              "id_str": "1380223741544697856",
+              "indices": [
+                108,
+                131
+              ],
+              "media_url": "http://pbs.twimg.com/media/EyeKxZAUYAEbo-Q.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EyeKxZAUYAEbo-Q.jpg",
+              "url": "https://t.co/uRR0a1ZHfZ",
+              "display_url": "pic.twitter.com/uRR0a1ZHfZ",
+              "expanded_url": "https://twitter.com/snydercut/status/1380225285509931009/video/1",
+              "type": "video",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 960,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 960,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 510,
+                  "resize": "fit"
+                }
+              },
+              "video_info": {
+                "aspect_ratio": [
+                  4,
+                  3
+                ],
+                "duration_millis": 60018,
+                "variants": [
+                  {
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1380223741544697856/vid/960x720/kHHShyHRwTWg0ryg.mp4?tag=14"
+                  },
+                  {
+                    "bitrate": 832000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1380223741544697856/vid/480x360/RALT9FkLhEoCctlK.mp4?tag=14"
+                  },
+                  {
+                    "bitrate": 288000,
+                    "content_type": "video/mp4",
+                    "url": "https://video.twimg.com/amplify_video/1380223741544697856/vid/360x270/ZCUmEUG7f1E97GWh.mp4?tag=14"
+                  },
+                  {
+                    "content_type": "application/x-mpegURL",
+                    "url": "https://video.twimg.com/amplify_video/1380223741544697856/pl/TmAabU_FEZHBFst2.m3u8?tag=14"
+                  }
+                ]
+              },
+              "additional_media_info": {
+                "title": "",
+                "description": "",
+                "embeddable": "True",
+                "monetizable": "False"
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1261435037288783872,
+          "id_str": "1261435037288783872",
+          "name": "Zack Snyder's Justice League",
+          "screen_name": "snydercut",
+          "location": "Justice League Watchtower",
+          "description": "Now Streaming on @HBOMax #SnyderCut",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 275930,
+          "friends_count": 35,
+          "listed_count": 363,
+          "created_at": "Fri May 15 23:16:02 +0000 2020",
+          "favourites_count": 799,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "False",
+          "verified": "True",
+          "statuses_count": 443,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1350583138016059392/KSP7eS8G_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1261435037288783872/1616084048",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "True",
+          "default_profile": "True",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 1806,
+        "favorite_count": 10066,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 1806,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Apr 10 00:58:21 +0000 2021",
+      "id": 1380686553874276353,
+      "id_str": "1380686553874276353",
+      "text": "RT @Foxtel: Did you know? Zack Snyder's Justice League is already in the list of 250 all-time-greatest movies on IMDb #SnyderCut 🦸 \n\nWatch…",
+      "truncated": "False",
+      "entities": {
+        "hashtags": [
+          {
+            "text": "SnyderCut",
+            "indices": [
+              118,
+              128
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Foxtel",
+            "name": "Foxtel",
+            "id": 36865454,
+            "id_str": "36865454",
+            "indices": [
+              3,
+              10
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1141438818622459904,
+        "id_str": "1141438818622459904",
+        "name": "Mr J",
+        "screen_name": "Mr_J310",
+        "location": "Wilmington, CA",
+        "description": "Chill and laid-back kinda guy from So. Cal. love meeting new people and enjoying life. Associate Producer of Zack Snyders Justice League. @afspnational",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": "False",
+        "followers_count": 105,
+        "friends_count": 123,
+        "listed_count": 0,
+        "created_at": "Wed Jun 19 20:13:16 +0000 2019",
+        "favourites_count": 14848,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": "False",
+        "verified": "False",
+        "statuses_count": 4966,
+        "lang": null,
+        "contributors_enabled": "False",
+        "is_translator": "False",
+        "is_translation_enabled": "False",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": "False",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1373771112455106562/mtsgOryU_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1373771112455106562/mtsgOryU_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1141438818622459904/1603941438",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "True",
+        "has_extended_profile": "True",
+        "default_profile": "True",
+        "default_profile_image": "False",
+        "following": "False",
+        "follow_request_sent": "False",
+        "notifications": "False",
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Apr 09 23:00:01 +0000 2021",
+        "id": 1380656777486856194,
+        "id_str": "1380656777486856194",
+        "text": "Did you know? Zack Snyder's Justice League is already in the list of 250 all-time-greatest movies on IMDb… https://t.co/CZIddGmHmR",
+        "truncated": "True",
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/CZIddGmHmR",
+              "expanded_url": "https://twitter.com/i/web/status/1380656777486856194",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                107,
+                130
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 36865454,
+          "id_str": "36865454",
+          "name": "Foxtel",
+          "screen_name": "Foxtel",
+          "location": "Australia",
+          "description": "We love TV as much as you do. Follow us for air-dates & news. Also on Facebook, Instagram & YouTube. Tweet @FOXTEL_help for customer service",
+          "url": "https://t.co/sdNKAOR8Nk",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/sdNKAOR8Nk",
+                  "expanded_url": "http://www.foxtel.com.au",
+                  "display_url": "foxtel.com.au",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": "False",
+          "followers_count": 110855,
+          "friends_count": 5485,
+          "listed_count": 407,
+          "created_at": "Fri May 01 03:03:51 +0000 2009",
+          "favourites_count": 9473,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": "True",
+          "verified": "True",
+          "statuses_count": 20369,
+          "lang": null,
+          "contributors_enabled": "False",
+          "is_translator": "False",
+          "is_translation_enabled": "False",
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": "False",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1319411491024433152/qSblgdam_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1319411491024433152/qSblgdam_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/36865454/1614040459",
+          "profile_link_color": "E81C4F",
+          "profile_sidebar_border_color": "BDDCAD",
+          "profile_sidebar_fill_color": "DDFFCC",
+          "profile_text_color": "333333",
+          "profile_use_background_image": "True",
+          "has_extended_profile": "True",
+          "default_profile": "False",
+          "default_profile_image": "False",
+          "following": "False",
+          "follow_request_sent": "False",
+          "notifications": "False",
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": "False",
+        "retweet_count": 136,
+        "favorite_count": 404,
+        "favorited": "False",
+        "retweeted": "False",
+        "possibly_sensitive": "False",
+        "lang": "en"
+      },
+      "is_quote_status": "False",
+      "retweet_count": 136,
+      "favorite_count": 0,
+      "favorited": "False",
+      "retweeted": "False",
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue May 14 17:58:31 +0000 2019",
+      "id": 1128358947772145672,
+      "id_str": "1128358947772145672",
+      "text": "Through the Twitter Developer Labs program, we'll soon preview new versions of GET /tweets and GET /users, followed… https://t.co/9i4c5bUUCu",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/9i4c5bUUCu",
+            "expanded_url": "https://twitter.com/i/web/status/1128358947772145672",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com\"rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 6253282,
+        "id_str": "6253282",
+        "name": "Twitter API",
+        "screen_name": "TwitterAPI",
+        "location": "San Francisco, CA",
+        "description": "The Real Twitter API. Tweets about API changes, service issues and our Developer Platform. Don't get an answer? It's on my website.",
+        "url": "https://t.co/8IkCzCDr19",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/8IkCzCDr19",
+                "expanded_url": "https://developer.twitter.com",
+                "display_url": "developer.twitter.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 6125649,
+        "friends_count": 12,
+        "listed_count": 12902,
+        "created_at": "Wed May 23 06:01:13 +0000 2007",
+        "favourites_count": 31,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": null,
+        "verified": true,
+        "statuses_count": 3664,
+        "lang": null,
+        "contributors_enabled": null,
+        "is_translator": null,
+        "is_translation_enabled": null,
+        "profile_background_color": "null",
+        "profile_background_image_url": "null",
+        "profile_background_image_url_https": "null",
+        "profile_background_tile": null,
+        "profile_image_url": "null",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/942858479592554497/BbazLO9L_normal.jpg",
+        "profile_banner_url": "null",
+        "profile_link_color": "null",
+        "profile_sidebar_border_color": "null",
+        "profile_sidebar_fill_color": "null",
+        "profile_text_color": "null",
+        "profile_use_background_image": null,
+        "has_extended_profile": null,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "null"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1128357926823976960,
+      "quoted_status_id_str": "1128357926823976960",
+      "quoted_status": {
+        "created_at": "Tue May 14 17:54:28 +0000 2019",
+        "id": 1128357926823976960,
+        "id_str": "1128357926823976960",
+        "text": "📣We’re launching Twitter Developer Labs in the coming weeks so we can build the future of our API together with tho… https://t.co/OVUiDiZqep",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/OVUiDiZqep",
+              "expanded_url": "https://twitter.com/i/web/status/1128357926823976960",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "source": "<a href=\"https://mobile.twitter.com\"rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 2244994945,
+          "id_str": "2244994945",
+          "name": "Twitter Dev",
+          "screen_name": "TwitterDev",
+          "location": "Internet",
+          "description": "Your official source for Twitter Platform news, updates & events. Need technical help? Visit https://t.co/mGHnxZU8c1 ⌨️ #TapIntoTwitter",
+          "url": "https://t.co/FGl7VOULyL",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/FGl7VOULyL",
+                  "expanded_url": "https://developer.twitter.com/",
+                  "display_url": "developer.twitter.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "https://t.co/mGHnxZU8c1",
+                  "expanded_url": "https://twittercommunity.com/",
+                  "display_url": "twittercommunity.com",
+                  "indices": [
+                    93,
+                    116
+                  ]
+                }
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 502258,
+          "friends_count": 1475,
+          "listed_count": 1519,
+          "created_at": "Sat Dec 14 04:35:55 +0000 2013",
+          "favourites_count": 2205,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": null,
+          "verified": true,
+          "statuses_count": 3664,
+          "lang": null,
+          "contributors_enabled": null,
+          "is_translator": null,
+          "is_translation_enabled": null,
+          "profile_background_color": "null",
+          "profile_background_image_url": "null",
+          "profile_background_image_url_https": "null",
+          "profile_background_tile": null,
+          "profile_image_url": "null",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/942858479592554497/BbazLO9L_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1497491515",
+          "profile_link_color": "null",
+          "profile_sidebar_border_color": "null",
+          "profile_sidebar_fill_color": "null",
+          "profile_text_color": "null",
+          "profile_use_background_image": null,
+          "has_extended_profile": null,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "null"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 169,
+        "favorite_count": 350,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 35,
+      "favorite_count": 74,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.111,
+    "max_id": 1380687078577557505,
+    "max_id_str": "1380687078577557505",
+    "next_results": "?max_id=1380686553874276352&q=%23snydercut&include_entities=1",
+    "query": "%23snydercut",
+    "refresh_url": "?since_id=1380687078577557505&q=%23snydercut&include_entities=1",
+    "count": 15,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}

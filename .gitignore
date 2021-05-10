@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,pycharm,visualstudiocode,dbeaver
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,pycharm,visualstudiocode,dbeaver
 
+### Twitter Fetch ###
+./sql/data/
+
 ### DBeaver ###
 # ide config file
 .dbeaver-data-sources*.xml
