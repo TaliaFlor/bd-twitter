@@ -4,4 +4,4 @@ setuptools
 
 # Dependencies
 tweepy~=3.10.0
-Faker~=8.0.0
+Faker==8.1.4

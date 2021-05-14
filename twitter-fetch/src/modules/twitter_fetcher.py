@@ -4,7 +4,7 @@ from tweepy import API
 from src.util.file import read_file
 
 
-class Fetcher:
+class TwitterFetcher:
     """Fetchs data from the Twitter API"""
 
     def __init__(self, config_file, data_amount=None):

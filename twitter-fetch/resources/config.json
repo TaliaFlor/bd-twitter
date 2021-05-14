@@ -7,6 +7,6 @@
     "bearer_token": "AAAAAAAAAAAAAAAAAAAAAMINOQEAAAAA8%2BvLARrBH3I65aQe2MBVFOdIp04%3DcMLZ9J0LQ6dgTX0ePXnQ6ohX7pZUscBrqgWNRrN1BdX8aKjY48"
   },
   "application": {
-    "query": "(book OR books OR movie OR movies OR serie OR series) (reading OR watching) -is:nullcast -is:truncated"
+    "query": "(lord of the rings OR lotr OR hobbit) lang:en -is:nullcast -is:truncated"
   }
 }

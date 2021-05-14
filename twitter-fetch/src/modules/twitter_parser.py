@@ -14,7 +14,7 @@ from src.util.collection import Collection
 from src.util.number import randmedium, fmt_date, fmt_datetime
 
 
-class Parser:
+class TwitterParser:
     """Parsers the data received from the API into the desired objects models"""
 
     def __init__(self, posts):

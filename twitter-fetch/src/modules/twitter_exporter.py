@@ -10,7 +10,7 @@ from src.util.collection import Collection
 from src.util.file import write_file
 
 
-class Exporter:
+class TwitterExporter:
     """Exports the data parsed into the collection"""
 
     def __init__(self, data_folder, collection: Collection):
